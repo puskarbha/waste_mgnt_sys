@@ -15,7 +15,7 @@ $result=mysqli_query($conn,$sql);
 if($result){
     echo' <script> 
             alert("You will be on your door at $time on $date");
-            window.location="../";
+            window.location="../user.php";
             </script>';
 }
 else{
